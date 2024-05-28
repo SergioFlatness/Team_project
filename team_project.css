@@ -1,0 +1,197 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header {
+    background-color: #000000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 20px;
+    height: 100px;
+    color: black;
+}
+
+.logo-text{
+    color: white;
+    font-size: 30px;
+    
+    font-size: 40px;
+    font-weight: bolder;
+   
+    background-image: linear-gradient(to right, #E9E7FB, #8697F1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: "Jua", sans-serif;
+    font-weight: bold;
+    
+}
+
+.logo img {
+    height: 40px;
+    color: white;
+    margin-left: 180px;
+}
+
+.nav-links {
+    list-style: none;
+    margin-right: 60px;
+    margin-top: 10px;
+    display: flex;
+    
+    align-items: center;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links a {
+    
+    text-decoration: none;
+   
+   
+    font-size: 30px;
+    font-weight: bold;
+   
+    margin-right: 70px;
+   
+    background-image: linear-gradient(to right, #E9E7FB, #8697F1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: "Jua", sans-serif;
+
+
+}
+
+.nav-links:last-child{
+    margin-right: 30px;
+}
+
+.nav-links-1:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: #ffffff
+}
+
+section {
+    padding: 100px 20px;
+    margin-top: 100px;
+}
+
+#about, #team, #project {
+    height: 100vh; /* Adjust height as needed */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+main{
+    color: white;
+    background-color: #000000;
+}
+
+.polaris{
+    font-weight: bold;
+    font-size: 150px;
+    background-image: linear-gradient(to right, #E9E7FB, #8697F1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: "Jua", sans-serif;
+    text-align: center;
+    margin-right: 50w0px;
+    padding-top: 120px;
+}
+
+.bethebest{
+    margin-top: 17px;
+    font-weight: bold;
+    margin-left: 180px;
+    font-size: 40px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.project{
+    background-image: linear-gradient(to right, rgb(69, 150, 255), rgb(76, 79, 255));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: "Jua", sans-serif;
+    font-size: 50px;
+
+}
+
+.p1{
+ 
+
+   
+
+    height: 200px;
+   
+   
+}
+
+
+
+
+
+
+
+
+/* footer part */
+.footer-content-area{
+    display: flex-end; 
+    background-color: black;
+    height: 500% ; 
+    width: 100% ;
+}
+.row{
+    padding: 60px ; 
+    display: flex ;
+    gap: 5px;
+    flex-direction: column; 
+}
+.col{
+    color: white;
+}
+
+
