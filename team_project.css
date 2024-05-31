@@ -59,6 +59,7 @@ header {
     height: 40px;
     color: white;
     margin-left: 180px;
+    margin-bottom: 20px;
 }
 
 .nav-links {
@@ -153,15 +154,16 @@ main {
 }
 
 .slide-item {
-    display: flex;
-    flex-direction: row;
+    
+    
     align-items: center;
     justify-content: center;
 }
 
-.slide-item>span {
-    margin-left: 20px;
+.carousel-item{
+    align-items: center;
 }
+
 
 .flex-direction {
     flex-direction: column;
@@ -173,13 +175,40 @@ main {
     height: 500px;
 }
 .about-first-section{
-    display: flex;
-    flex-direction: column;
+    font-family: "Jua", sans-serif;
 }
 
 .about-first-section-1{
     margin-bottom: 20px;
+    font-family: "Jua", sans-serif;
+    font-size: 30px;
+    margin-left: 20px;
+    background-image: linear-gradient(to right, #e6e3ff, #607bff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
+
+.carousel-inner {
+    width: auto;
+    height: 680px;
+  } 
+
+.carousel-maintext{
+    
+    font-family: "Jua", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(92, 157, 255);
+}
+.carousel-subtext{
+    margin-bottom: 350px;
+    font-family: "Jua", sans-serif;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    
+}
+
 
 
 
@@ -205,7 +234,7 @@ main {
     color: transparent;
     font-family: "Jua", sans-serif;
     font-size: 50px;
-
+    margin-left: 20px;
 }
 
 .p1 {
@@ -235,9 +264,14 @@ main {
     background-clip: text;
 }
 
-.card-text{
-    font-size: 25px;
+.card:hover{
+    transform: scale(1.10);
+    .text-bg-dark{
+        color: #2067ff;
+    }
 }
+
+
 
 
 /* footer part */
@@ -246,6 +280,7 @@ main {
     background-color: black;
     height: 500%;
     width: 100%;
+    font-family: "Jua", sans-serif;
 }
 
 .row {
@@ -257,4 +292,8 @@ main {
 
 .col {
     color: white;
+}
+
+.copyright{
+    color: gray;
 }
