@@ -308,7 +308,7 @@ main {
 
 
 /* team part */
-body {
+********body {
     margin: 0;
     padding: 0;
     background-color: black;
@@ -318,7 +318,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-  }
+  }**********
   
   .container {
     display: grid;
