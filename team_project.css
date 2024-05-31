@@ -169,6 +169,18 @@ main {
     margin-left: 10px;
     gap: 10px;
 }
+.ive{
+    height: 500px;
+}
+.about-first-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-first-section-1{
+    margin-bottom: 20px;
+}
+
 
 
 
