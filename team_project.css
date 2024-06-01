@@ -50,7 +50,7 @@ header {
 
 
 
-@font-face{
+@font-face {
     font-family: "sf_pro_woff";
     src: url(sf_pro_regular.89120880.woff);
 }
@@ -154,13 +154,13 @@ main {
 }
 
 .slide-item {
-    
-    
+
+
     align-items: center;
     justify-content: center;
 }
 
-.carousel-item{
+.carousel-item {
     align-items: center;
 }
 
@@ -171,14 +171,16 @@ main {
     margin-left: 10px;
     gap: 10px;
 }
-.ive{
+
+.ive {
     height: 500px;
 }
-.about-first-section{
+
+.about-first-section {
     font-family: "Jua", sans-serif;
 }
 
-.about-first-section-1{
+.about-first-section-1 {
     margin-bottom: 20px;
     font-family: "Jua", sans-serif;
     font-size: 30px;
@@ -192,21 +194,41 @@ main {
 .carousel-inner {
     width: auto;
     height: 680px;
-  } 
+}
 
-.carousel-maintext{
-    
+.carousel-maintext {
+
     font-family: "Jua", sans-serif;
     font-size: 40px;
     font-weight: bold;
     color: rgb(92, 157, 255);
 }
-.carousel-subtext{
+
+.carousel-subtext {
     margin-bottom: 350px;
     font-family: "Jua", sans-serif;
     font-size: 25px;
-    color: rgb(255, 255, 255);
-    
+
+}
+
+.about-message {
+    gap: 20px;
+    font-size: 15px;
+}
+
+.about-topic {
+    color: blue;
+    font-size: 15px;
+    gap: 20px;
+}
+
+.middle-section {
+    text-align: right;
+    margin-left: auto;
+}
+
+.subtitle {
+    color: lightblue;
 }
 
 
@@ -242,31 +264,32 @@ main {
     justify-content: space-around;
     height: 80%;
     font-family: "Jua", sans-serif;
-    
-    
-  
-    
-} 
 
-.row{
+
+
+
+}
+
+.row {
     display: flex;
 }
 
 
-.hr-solid{
-    border : 0px;
+.hr-solid {
+    border: 0px;
     border-top: 5px solid #2067ff;
 }
 
-.card1{
+.card1 {
     font-size: 30px;
     background-image: linear-gradient(to right, #E9E7FB, #8697F1);
     background-clip: text;
 }
 
-.card:hover{
+.card:hover {
     transform: scale(1.10);
-    .text-bg-dark{
+
+    .text-bg-dark {
         color: #2067ff;
     }
 }
@@ -294,7 +317,7 @@ main {
     color: white;
 }
 
-.copyright{
+.copyright {
     color: gray;
 }
 
@@ -318,16 +341,16 @@ main {
     justify-content: center;
     align-items: center;
     height: 100vh;
-  }**********
-  
-  .container {
+}
+
+********** .container {
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-gap: 20px;
     padding: 20px;
-  }
-  
-  .team-box {
+}
+
+.team-box {
     background-color: black;
     padding: 20px;
     border: 2px solid white;
@@ -338,25 +361,25 @@ main {
     align-items: center;
     text-align: center;
     transition: transform 0.3s ease;
-  }
-  
-  .team-box:hover {
-    transform: scale(1.1); 
-  }
-  
-  .team-name {
+}
+
+.team-box:hover {
+    transform: scale(1.1);
+}
+
+.team-name {
     font-size: 24px;
-  }
-  
-  .team-description {
+}
+
+.team-description {
     display: none;
-  }
-  
-  .team-box:hover .team-description {
+}
+
+.team-box:hover .team-description {
     display: block;
     padding-top: 10px;
-  }
-  
-  .team-box:hover .team-name {
+}
+
+.team-box:hover .team-name {
     display: none;
-  }
+}
