@@ -1,6 +1,6 @@
 /* styles.css */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Jua", sans-serif;
     margin: 0;
     padding: 0;
     background-color: #000000;
@@ -50,10 +50,7 @@ header {
 
 
 
-@font-face {
-    font-family: "sf_pro_woff";
-    src: url(sf_pro_regular.89120880.woff);
-}
+
 
 .logo img {
     height: 40px;
@@ -168,8 +165,11 @@ main {
 .flex-direction {
     flex-direction: column;
     display: flex;
-    margin-left: 10px;
+    margin-left: 90px;
+    margin-right: 90px;
     gap: 10px;
+    font-family: "Jua", sans-serif;
+    font-size: 37px;
 }
 
 .ive {
@@ -181,9 +181,10 @@ main {
 }
 
 .about-first-section-1 {
-    margin-bottom: 20px;
+    
+    
     font-family: "Jua", sans-serif;
-    font-size: 30px;
+    font-size: 35px;
     margin-left: 20px;
     background-image: linear-gradient(to right, #e6e3ff, #607bff);
     background-clip: text;
@@ -213,15 +214,19 @@ main {
 
 .about-message {
     gap: 20px;
-    font-size: 15px;
+    font-size: 30px;
+    
 }
 
 .about-topic {
-    color: blue;
-    font-size: 15px;
+    color: rgb(51, 106, 255);
+    font-size: 70px;
     gap: 20px;
+    font-family: "Jua", sans-serif;
+    margin-left: 90px;
+    margin-right: 90px;
+   
 }
-
 .middle-section {
     text-align: right;
     margin-left: auto;
@@ -233,7 +238,110 @@ main {
 
 
 
+eam-section .team-name h3 {
+    color: #000000; 
+  }
+  
+  .team-section .content p {
+    color: #000000;
+  }
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        max-width: 1200px;
+    }
 
+    .team1{
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        color: rgb(255, 254, 254);
+        font-family: "Jua", sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        max-width: 1200px;
+        
+        height: 100vh;
+    }
+  
+    .team-section {
+      width: 300px;
+      height: 300px;
+      background-color: rgba(255, 255, 255, 0.404);
+      margin: 10px;
+      border-radius: 10px;
+      position: relative;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+      overflow: hidden;
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .team-section:hover {
+      transform: scale(1.1);
+    }
+  
+    .team-section .team-name {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      z-index: 2;
+      opacity: 1;
+      transition: opacity 0.3s ease;
+      margin-top: 110px;
+      color: #000000;
+    }
+  
+    .team-section:hover .team-name {
+      opacity: 0;
+    }
+  
+    .team-section .content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      z-index: 1;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      font-size: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   
+    }
+  
+    .team-section:hover .content {
+      opacity: 1;
+    }
+  
+    .team-section .background-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      background-size: cover;
+      background-position: center;
+      z-index: 0;
+      transition: opacity 0.3s ease;
+    }
+  
+    .team-section:hover .background-image {
+      opacity: 0.5;
+    }
+  
 
 
 
@@ -264,7 +372,7 @@ main {
     justify-content: space-around;
     height: 80%;
     font-family: "Jua", sans-serif;
-
+    margin-top: 20px;
 
 
 
@@ -288,10 +396,14 @@ main {
 
 .card:hover {
     transform: scale(1.10);
-
+    transition: transform 0.3s ease;
     .text-bg-dark {
         color: #2067ff;
     }
+}
+
+.card-text{
+    font-size: 25px;
 }
 
 
@@ -304,6 +416,7 @@ main {
     height: 500%;
     width: 100%;
     font-family: "Jua", sans-serif;
+    font-size: 20px;
 }
 
 .row {
@@ -331,7 +444,7 @@ main {
 
 
 /* team part */
-********body {
+/* body {
     margin: 0;
     padding: 0;
     background-color: black;
@@ -341,9 +454,9 @@ main {
     justify-content: center;
     align-items: center;
     height: 100vh;
-}
+} */
 
-********** .container {
+.container {
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-gap: 20px;
