@@ -165,8 +165,8 @@ main {
 .flex-direction {
     flex-direction: column;
     display: flex;
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: 200px;
+    margin-right: 200px;
     gap: 10px;
     font-family: "Jua", sans-serif;
     font-size: 37px;
@@ -223,8 +223,8 @@ main {
     font-size: 70px;
     gap: 20px;
     font-family: "Jua", sans-serif;
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: 200px;
+    margin-right: 200px;
    
 }
 .middle-section {
@@ -270,8 +270,8 @@ eam-section .team-name h3 {
     }
   
     .team-section {
-      width: 300px;
-      height: 300px;
+      width: 350px;
+      height: 350px;
       background-color: rgba(255, 255, 255, 0.404);
       margin: 10px;
       border-radius: 10px;
@@ -281,6 +281,7 @@ eam-section .team-name h3 {
       overflow: hidden;
       display: flex;
       justify-content: space-between;
+      margin-top: 0%;
     }
   
     .team-section:hover {
