@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #000000;
+    
 }
 
 header {
@@ -220,7 +221,7 @@ main {
 
 .about-topic {
     color: rgb(51, 106, 255);
-    font-size: 70px;
+    font-size: 60px;
     gap: 20px;
     font-family: "Jua", sans-serif;
     margin-left: 200px;
@@ -243,7 +244,7 @@ eam-section .team-name h3 {
   }
   
   .team-section .content p {
-    color: #000000;
+    color: #ffffff;
   }
     .container {
         display: flex;
@@ -257,8 +258,9 @@ eam-section .team-name h3 {
         margin: 0;
         padding: 0;
         background-color: black;
-        color: rgb(255, 254, 254);
+        color: rgb(255, 254, 255);
         font-family: "Jua", sans-serif;
+        color: white;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -272,7 +274,7 @@ eam-section .team-name h3 {
     .team-section {
       width: 350px;
       height: 350px;
-      background-color: rgba(255, 255, 255, 0.404);
+      background-color: #000000;
       margin: 10px;
       border-radius: 10px;
       position: relative;
@@ -286,6 +288,7 @@ eam-section .team-name h3 {
   
     .team-section:hover {
       transform: scale(1.1);
+      
     }
   
     .team-section .team-name {
@@ -297,8 +300,9 @@ eam-section .team-name h3 {
       z-index: 2;
       opacity: 1;
       transition: opacity 0.3s ease;
-      margin-top: 110px;
+      margin-top: 130px;
       color: #000000;
+      
     }
   
     .team-section:hover .team-name {
@@ -314,16 +318,18 @@ eam-section .team-name h3 {
       z-index: 1;
       opacity: 0;
       transition: opacity 0.3s ease;
-      font-size: 24px;
+      font-size: 25px;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      color: white;
    
     }
   
     .team-section:hover .content {
       opacity: 1;
+      
     }
   
     .team-section .background-image {
@@ -341,6 +347,7 @@ eam-section .team-name h3 {
   
     .team-section:hover .background-image {
       opacity: 0.5;
+      
     }
   
 
@@ -400,6 +407,7 @@ eam-section .team-name h3 {
     transition: transform 0.3s ease;
     .text-bg-dark {
         color: #2067ff;
+        opacity: 0;
     }
 }
 
